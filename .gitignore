@@ -7,6 +7,7 @@
 
 myvenv/
 venv/
+.venv/
 env/
 .env
 *.pyc
