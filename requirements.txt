@@ -8,45 +8,47 @@ langgraph>=0.2.0
 langchain-google-genai>=0.0.5
 google-generativeai>=0.3.0
 
+dotenv
+
 # Vector Store - FAISS
-faiss-cpu>=1.7.4
-# Note: Use faiss-gpu instead of faiss-cpu if you have GPU support
+# faiss-cpu>=1.7.4
+# # Note: Use faiss-gpu instead of faiss-cpu if you have GPU support
 
-# Document Loaders
-pypdf>=3.17.0          # PDF documents
-python-docx>=1.1.0     # Word documents
-openpyxl>=3.1.0        # Excel files
-unstructured>=0.10.0   # Various document formats
-python-magic>=0.4.27   # File type detection
+# # Document Loaders
+# pypdf>=3.17.0          # PDF documents
+# python-docx>=1.1.0     # Word documents
+# openpyxl>=3.1.0        # Excel files
+# unstructured>=0.10.0   # Various document formats
+# python-magic>=0.4.27   # File type detection
 
-# Web Scraping/Search
-beautifulsoup4>=4.12.0
-lxml>=4.9.0
-selenium>=4.15.0       # For dynamic content
-playwright>=1.40.0     # Alternative to Selenium
-httpx>=0.25.0
-requests>=2.31.0
+# # Web Scraping/Search
+# beautifulsoup4>=4.12.0
+# lxml>=4.9.0
+# selenium>=4.15.0       # For dynamic content
+# playwright>=1.40.0     # Alternative to Selenium
+# httpx>=0.25.0
+# requests>=2.31.0
 
-# SQL Database Integration
-sqlalchemy>=2.0.0
-psycopg2-binary>=2.9.0  # PostgreSQL
-pymysql>=1.1.0          # MySQL
-# pyodbc>=5.0.0         # For SQL Server (uncomment if needed)
+# # SQL Database Integration
+# sqlalchemy>=2.0.0
+# psycopg2-binary>=2.9.0  # PostgreSQL
+# pymysql>=1.1.0          # MySQL
+# # pyodbc>=5.0.0         # For SQL Server (uncomment if needed)
 
-# Embeddings
-tiktoken>=0.5.0        # Token counting
-sentence-transformers>=2.2.0  # Local embeddings (optional)
+# # Embeddings
+# tiktoken>=0.5.0        # Token counting
+# sentence-transformers>=2.2.0  # Local embeddings (optional)
 
-# Environment and Configuration
-python-dotenv>=1.0.0
-pydantic>=2.0.0
-pydantic-settings>=2.0.0
-typing-extensions>=4.5.0
+# # Environment and Configuration
+# python-dotenv>=1.0.0
+# pydantic>=2.0.0
+# pydantic-settings>=2.0.0
+# typing-extensions>=4.5.0
 
-# Utilities
-tenacity>=8.2.0        # Retry logic
-langsmith>=0.1.0       # LangSmith tracing (optional)
-langchainhub>=0.1.0    # Access to LangChain Hub prompts (optional)
+# # Utilities
+# tenacity>=8.2.0        # Retry logic
+# langsmith>=0.1.0       # LangSmith tracing (optional)
+# langchainhub>=0.1.0    # Access to LangChain Hub prompts (optional)
 
 # Development (optional - uncomment if needed)
 # pytest>=7.4.0
