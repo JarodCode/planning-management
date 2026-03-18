@@ -29,8 +29,6 @@ while True:
         {"messages": [{"role": "user", "content": user_input}]},
         config=config
     )
+
     last_message = response["messages"][-1].content
-    if isinstance(last_message, list):
-        print("Agent:", last_message[0]["text"])
-    else:
-        print("Agent:", last_message)
+    print("Agent:", last_message[0]["text"])
